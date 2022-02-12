@@ -1,0 +1,31 @@
+@import "utils";
+@import "fonts";
+@import "typography";
+
+body {
+  background: $c-gray;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  color: #113b88;
+  background-color: white;
+  margin: 20px auto 0px;
+  width: 200px;
+  height: 200px;
+}
+
+td,
+th {
+  border: 1px solid #113b88;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  background-color: #9655fa;
+  color: #fff;
+}
